@@ -1,0 +1,79 @@
+.parent{
+    height: 500px;
+    width: 550px;
+    border: 1px solid blue;
+    position: relative;
+    top: 55px;
+    left: 400px;
+}
+.top-left{
+    height: 75px;
+    width: 75px;
+    border: 1px solid red;
+}
+.top-right{
+    height: 75px;
+    width: 75px;
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.bottom-left{
+    height: 75px;
+    width: 75px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.bottom-right{
+    height: 75px;
+    width: 75px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.top-circle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid green;
+    position: absolute;
+    top: 0px;
+    left: 235px;
+}  
+
+.bottom-circle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid green;
+    position: absolute;
+    bottom: 0px;
+    left: 235px;    
+}
+.left-circle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid green;
+    position: absolute;
+    top: 210px;
+}
+.right-circle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid green;
+    position: absolute;
+    top: 210px;
+    right: 0px;
+}
+#text{
+    color: brown;
+    position: absolute;
+    top: 235px;
+    left: 235px;
+}
